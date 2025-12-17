@@ -1,0 +1,46 @@
+{
+  "note": "This file documents the expected image structure for the website",
+  "imageStructure": {
+    "description": "Each property requires images in multiple formats and sizes",
+    "requiredFormats": ["webp", "jpg"],
+    "requiredSizes": [
+      {
+        "suffix": "-sm",
+        "width": 400,
+        "maxViewport": "400px",
+        "description": "Mobile devices"
+      },
+      {
+        "suffix": "-md",
+        "width": 800,
+        "maxViewport": "800px",
+        "description": "Tablets"
+      },
+      {
+        "suffix": "-lg",
+        "width": 1200,
+        "maxViewport": "1200px+",
+        "description": "Desktop"
+      }
+    ],
+    "properties": [
+      "alexander-dross",
+      "dross-media",
+      "dross-aviation",
+      "aip-aero",
+      "trade-aero",
+      "dross-air",
+      "dross-blog"
+    ],
+    "exampleFiles": [
+      "/images/alexander-dross-sm.webp",
+      "/images/alexander-dross-sm.jpg",
+      "/images/alexander-dross-md.webp",
+      "/images/alexander-dross-md.jpg",
+      "/images/alexander-dross-lg.webp",
+      "/images/alexander-dross-lg.jpg",
+      "/images/alexander-dross.webp",
+      "/images/alexander-dross.jpg"
+    ]
+  }
+}
